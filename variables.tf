@@ -81,3 +81,27 @@ variable "db_allocated_storage" {
   type        = number
   default     = 20
 }
+
+variable "instance_type" {
+  description = "EC2 instance type for application servers"
+  type        = string
+  default     = "t3.micro"
+}
+
+variable "asg_min_size" {
+  description = "Minimum number of EC2 instances in the Auto Scaling Group"
+  type        = number
+  default     = 2
+}
+
+variable "asg_max_size" {
+  description = "Maximum number of EC2 instances in the Auto Scaling Group"
+  type        = number
+  default     = 4
+}
+
+variable "asg_desired_capacity" {
+  description = "Desired number of EC2 instances in the Auto Scaling Group"
+  type        = number
+  default     = 2
+}
