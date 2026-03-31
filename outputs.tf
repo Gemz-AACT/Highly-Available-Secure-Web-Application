@@ -52,3 +52,18 @@ output "waf_web_acl_arn" {
   description = "ARN of the WAF web ACL"
   value       = aws_wafv2_web_acl.web_acl.arn
 }
+
+output "db_instance_endpoint" {
+  description = "RDS instance endpoint"
+  value       = aws_db_instance.main.endpoint
+}
+
+output "db_instance_id" {
+  description = "RDS instance ID"
+  value       = aws_db_instance.main.id
+}
+
+output "db_secret_arn" {
+  description = "Secrets Manager ARN for DB credentials"
+  value       = aws_secretsmanager_secret.db_secret.arn
+}
