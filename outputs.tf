@@ -27,3 +27,28 @@ output "nat_gateway_id" {
   description = "The ID of the NAT Gateway"
   value       = aws_nat_gateway.nat.id
 }
+
+output "alb_security_group_id" {
+  description = "Security group ID for the ALB"
+  value       = aws_security_group.alb_sg.id
+}
+
+output "ec2_security_group_id" {
+  description = "Security group ID for EC2 instances"
+  value       = aws_security_group.ec2_sg.id
+}
+
+output "rds_security_group_id" {
+  description = "Security group ID for the RDS database"
+  value       = aws_security_group.rds_sg.id
+}
+
+output "ec2_instance_profile_name" {
+  description = "IAM instance profile for EC2"
+  value       = aws_iam_instance_profile.ec2_profile.name
+}
+
+output "waf_web_acl_arn" {
+  description = "ARN of the WAF web ACL"
+  value       = aws_wafv2_web_acl.web_acl.arn
+}
