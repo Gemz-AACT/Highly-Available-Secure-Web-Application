@@ -22,5 +22,9 @@ This project is a step-by-step build of a highly available and secure web applic
 
 ## Status
 Step 1 complete: Terraform environment setup started.
+## Status
 Step 2 complete: Added Terraform provider configuration and networking foundation, including VPC, public/private subnets, Internet Gateway, NAT Gateway, and route tables.
+## Status
 Step 3 complete: Added the security layer, including IAM role and instance profile for EC2, security groups for ALB/EC2/RDS, and AWS WAF protection with managed rules and rate limiting.
+## Status
+Step 4 complete: Added the database layer with encrypted Multi-AZ PostgreSQL RDS, private DB subnet group, Secrets Manager credential storage, and Terraform-generated password management.
