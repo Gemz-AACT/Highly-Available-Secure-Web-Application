@@ -1,2 +1,1 @@
-# Highly-Available-Secure-Web-Application
-Architected a highly available AWS web application with WAF protection, encrypted databases, and secure secret management.
+Highly available and secure AWS web application deployed with Terraform, featuring ALB, Auto Scaling, RDS Multi-AZ, WAF, IAM, Secrets Manager, and CloudWatch
