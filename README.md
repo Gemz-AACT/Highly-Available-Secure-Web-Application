@@ -29,3 +29,21 @@ Step 3 complete: Added the security layer, including IAM role and instance profi
 *****
 Step 4 complete: Added the database layer with encrypted Multi-AZ PostgreSQL RDS, private DB subnet group, Secrets Manager credential storage, and Terraform-generated password management.
 *****
+Step 5 complete: Added the compute layer with an Application Load Balancer, target group, HTTP listener, Launch Template, EC2 user data, and Auto Scaling Group across private application subnets.
+*****
+
+*****
+
+*****
+
+*****
+
+*****
+
+*****
+
+*****
+
+*****
+
+*****
