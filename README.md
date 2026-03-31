@@ -1,0 +1,24 @@
+# Highly Available & Secure Web Application on AWS with Terraform
+
+This project is a step-by-step build of a highly available and secure web application on AWS using Terraform.
+
+## Planned Components
+- Application Load Balancer (ALB)
+- Auto Scaling EC2 instances
+- Amazon RDS (encrypted, Multi-AZ)
+- AWS WAF
+- CloudWatch monitoring
+- IAM roles
+- Secrets Manager
+
+## Project Files
+- `main.tf` - provider and shared configuration
+- `vpc.tf` - networking resources
+- `security.tf` - security controls
+- `database.tf` - RDS and secrets
+- `compute.tf` - ALB and Auto Scaling
+- `variables.tf` - input variables
+- `outputs.tf` - output values
+
+## Status
+Step 1 complete: Terraform environment setup started.
