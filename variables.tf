@@ -57,3 +57,27 @@ variable "app_port" {
   type        = number
   default     = 80
 }
+
+variable "db_name" {
+  description = "Name of the PostgreSQL database"
+  type        = string
+  default     = "webappdb"
+}
+
+variable "db_username" {
+  description = "Master username for the PostgreSQL database"
+  type        = string
+  default     = "webappadmin"
+}
+
+variable "db_instance_class" {
+  description = "RDS instance class"
+  type        = string
+  default     = "db.t3.micro"
+}
+
+variable "db_allocated_storage" {
+  description = "Allocated storage for RDS in GB"
+  type        = number
+  default     = 20
+}
