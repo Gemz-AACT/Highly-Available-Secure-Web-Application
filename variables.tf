@@ -105,3 +105,9 @@ variable "asg_desired_capacity" {
   type        = number
   default     = 2
 }
+
+variable "certificate_arn" {
+  description = "ACM certificate ARN for HTTPS listener"
+  type        = string
+  default     = ""
+}

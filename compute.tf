@@ -86,3 +86,18 @@ resource "aws_autoscaling_group" "web_asg" {
     propagate_at_launch = true
   }
 }
+
+output "cloudwatch_ec2_cpu_alarm_name" {
+  description = "CloudWatch alarm for high EC2 CPU"
+  value       = aws_cloudwatch_metric_alarm.ec2_cpu_high.alarm_name
+}
+
+output "cloudwatch_alb_unhealthy_hosts_alarm_name" {
+  description = "CloudWatch alarm for unhealthy ALB targets"
+  value       = aws_cloudwatch_metric_alarm.alb_unhealthy_hosts.alarm_name
+}
+
+output "cloudwatch_alb_5xx_alarm_name" {
+  description = "CloudWatch alarm for ALB 5XX errors"
+  value       = aws_cloudwatch_metric_alarm.alb_5xx_errors.alarm_name
+}
