@@ -10,3 +10,8 @@ private_db_subnet_cidrs  = ["10.0.21.0/24", "10.0.22.0/24"]
 allowed_http_cidr  = "0.0.0.0/0"
 allowed_https_cidr = "0.0.0.0/0"
 app_port           = 80
+
+db_name              = "webappdb"
+db_username          = "webappadmin"
+db_instance_class    = "db.t3.micro"
+db_allocated_storage = 20
