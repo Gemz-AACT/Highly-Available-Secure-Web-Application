@@ -31,7 +31,7 @@ Step 4 complete: Added the database layer with encrypted Multi-AZ PostgreSQL RDS
 *****
 Step 5 complete: Added the compute layer with an Application Load Balancer, target group, HTTP listener, Launch Template, EC2 user data, and Auto Scaling Group across private application subnets.
 *****
-
+Step 6 complete: Added CloudWatch monitoring for EC2 and ALB health, along with HTTPS listener support for TLS termination using ACM. The infrastructure now includes networking, security, database, compute, and monitoring layers.
 *****
 
 *****
