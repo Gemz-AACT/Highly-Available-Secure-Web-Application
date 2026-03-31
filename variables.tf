@@ -39,3 +39,21 @@ variable "private_db_subnet_cidrs" {
   type        = list(string)
   default     = ["10.0.21.0/24", "10.0.22.0/24"]
 }
+
+variable "allowed_http_cidr" {
+  description = "CIDR block allowed to access the ALB over HTTP"
+  type        = string
+  default     = "0.0.0.0/0"
+}
+
+variable "allowed_https_cidr" {
+  description = "CIDR block allowed to access the ALB over HTTPS"
+  type        = string
+  default     = "0.0.0.0/0"
+}
+
+variable "app_port" {
+  description = "Application port running on EC2 instances"
+  type        = number
+  default     = 80
+}
