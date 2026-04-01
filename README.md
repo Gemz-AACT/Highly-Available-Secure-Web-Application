@@ -20,11 +20,20 @@ This project is a step-by-step build of a highly available and secure web applic
 - `variables.tf` - input variables
 - `outputs.tf` - output values
 
-## 🔐 Threat Model (STRIDE)
+## Threat Model (STRIDE)
 
 A STRIDE-based threat model was created to identify potential security risks and mitigation strategies.
 
 [View Threat Model](threat-model/stride-threat-model.md)
+
+## Cost & Security Trade-offs
+
+A breakdown of architectural decisions, balancing cost, performance, and security.
+
+[View Analysis](analysis/cost-security-analysis.md)
+
+## Architecture Diagram
+![Architecture Diagram](architecture/architecture-diagram.png)
 
 ## Status
 Step 1 complete: Terraform environment setup started.
@@ -50,7 +59,4 @@ Step 10 complete:
 Step 11 complete:
 *****
 Step 12 complete:
-*****
-## 🏗️ Architecture Diagram
-![Architecture Diagram](architecture/architecture-diagram.png)
 *****
