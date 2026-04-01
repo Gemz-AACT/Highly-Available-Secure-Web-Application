@@ -2,6 +2,10 @@
 
 This project demonstrates the design and deployment of a highly available, secure, and production-style AWS architecture using Infrastructure as Code (Terraform).
 
+## Why This Project
+
+This project was built to demonstrate real-world cloud architecture and security practices using AWS and Terraform. It focuses on designing a highly available, secure, and scalable infrastructure aligned with AWS Well-Architected Framework principles.
+
 ## Planned Components
 - Application Load Balancer (ALB)
 - Auto Scaling EC2 instances
