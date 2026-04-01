@@ -54,5 +54,6 @@ Step 8 complete: Developed a STRIDE-based threat model identifying key security 
 *****
 Step 9 complete: Documented key cost and security trade-offs, analyzing decisions such as Multi-AZ RDS, NAT Gateway usage, Auto Scaling, WAF protection, and encryption strategies.
 *****
+Step 10 complete: Successfully deployed and validated the AWS infrastructure in a live environment, confirming ALB connectivity, EC2 health, RDS availability, Secrets Manager integration, and CloudWatch monitoring.
 
 
