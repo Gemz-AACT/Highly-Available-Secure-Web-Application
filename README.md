@@ -54,9 +54,5 @@ Step 8 complete: Developed a STRIDE-based threat model identifying key security 
 *****
 Step 9 complete: Documented key cost and security trade-offs, analyzing decisions such as Multi-AZ RDS, NAT Gateway usage, Auto Scaling, WAF protection, and encryption strategies.
 *****
-Step 10 complete:
-*****
-Step 11 complete:
-*****
-Step 12 complete:
-*****
+
+
