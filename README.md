@@ -46,5 +46,5 @@ Step 6 complete: Added CloudWatch monitoring for EC2 and ALB health, along with 
 
 *****
 ## 🏗️ Architecture Diagram
-![Architecture Diagram](C:\Users\daw10\terraform-projects\Highly-available-secure-webapp\architecture\architecture-diagram.png)
+![Architecture Diagram](architecture/architecture-diagram.png)
 *****
