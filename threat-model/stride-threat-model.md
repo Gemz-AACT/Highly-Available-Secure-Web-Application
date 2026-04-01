@@ -1,10 +1,10 @@
-# 🔐 STRIDE Threat Model — Highly Available Secure Web Application
+# STRIDE Threat Model — Highly Available Secure Web Application
 
 This document outlines potential threats using the STRIDE model and how the AWS architecture mitigates them.
 
 ---
 
-## 🧍 Spoofing
+## Spoofing
 
 **Threat:**  
 Attackers impersonate legitimate users or services.
@@ -16,7 +16,7 @@ Attackers impersonate legitimate users or services.
 
 ---
 
-## ✏️ Tampering
+## Tampering
 
 **Threat:**  
 Data is modified in transit or at rest.
@@ -29,7 +29,7 @@ Data is modified in transit or at rest.
 
 ---
 
-## 🧾 Repudiation
+## Repudiation
 
 **Threat:**  
 Users deny performing actions.
@@ -40,7 +40,7 @@ Users deny performing actions.
 
 ---
 
-## 🔓 Information Disclosure
+## Information Disclosure
 
 **Threat:**  
 Sensitive data is exposed.
@@ -53,7 +53,7 @@ Sensitive data is exposed.
 
 ---
 
-## 🚫 Denial of Service (DoS)
+## Denial of Service (DoS)
 
 **Threat:**  
 System is overwhelmed by excessive traffic.
@@ -65,7 +65,7 @@ System is overwhelmed by excessive traffic.
 
 ---
 
-## ⬆️ Elevation of Privilege
+## Elevation of Privilege
 
 **Threat:**  
 Attackers gain higher permissions.
@@ -77,6 +77,6 @@ Attackers gain higher permissions.
 
 ---
 
-## ✅ Summary
+## Summary
 
 This architecture applies security best practices including network isolation, encryption, identity management, and monitoring, aligning with AWS Well-Architected Framework principles.
