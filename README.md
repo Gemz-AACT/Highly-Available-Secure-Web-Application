@@ -52,7 +52,7 @@ Step 7 complete: Designed and added the AWS architecture diagram illustrating th
 *****
 Step 8 complete: Developed a STRIDE-based threat model identifying key security risks and mitigation strategies across the AWS architecture, including IAM, WAF, encryption, and network isolation.
 *****
-Step 9 complete:
+Step 9 complete: Documented key cost and security trade-offs, analyzing decisions such as Multi-AZ RDS, NAT Gateway usage, Auto Scaling, WAF protection, and encryption strategies.
 *****
 Step 10 complete:
 *****
