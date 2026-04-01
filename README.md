@@ -45,5 +45,6 @@ Step 6 complete: Added CloudWatch monitoring for EC2 and ALB health, along with 
 *****
 
 *****
-
+## 🏗️ Architecture Diagram
+![Architecture Diagram](architecture/architecture-diagram.png)
 *****
