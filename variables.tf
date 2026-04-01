@@ -82,6 +82,12 @@ variable "db_allocated_storage" {
   default     = 20
 }
 
+variable "db_engine_version" {
+  description = "RDS PostgreSQL engine version"
+  type        = string
+  default     = "16.4"
+}
+
 variable "instance_type" {
   description = "EC2 instance type for application servers"
   type        = string
