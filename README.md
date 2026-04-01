@@ -33,17 +33,17 @@ Step 5 complete: Added the compute layer with an Application Load Balancer, targ
 *****
 Step 6 complete: Added CloudWatch monitoring for EC2 and ALB health, along with HTTPS listener support for TLS termination using ACM. The infrastructure now includes networking, security, database, compute, and monitoring layers.
 *****
-
+Step 7 complete: Designed and added the AWS architecture diagram illustrating the full infrastructure, including WAF, ALB, Auto Scaling EC2 instances, RDS (Multi-AZ), Secrets Manager, and CloudWatch monitoring, highlighting a secure and highly available deployment.
 *****
-
+Step 8 complete:
 *****
-
+Step 9 complete:
 *****
-
+Step 10 complete:
 *****
-
+Step 11 complete:
 *****
-
+Step 12 complete:
 *****
 ## 🏗️ Architecture Diagram
 ![Architecture Diagram](architecture/architecture-diagram.png)
