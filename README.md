@@ -1,6 +1,6 @@
 # Highly Available & Secure Web Application on AWS with Terraform
 
-This project is a step-by-step build of a highly available and secure web application on AWS using Terraform.
+This project demonstrates the design and deployment of a highly available, secure, and production-style AWS architecture using Infrastructure as Code (Terraform).
 
 ## Planned Components
 - Application Load Balancer (ALB)
@@ -10,6 +10,25 @@ This project is a step-by-step build of a highly available and secure web applic
 - CloudWatch monitoring
 - IAM roles
 - Secrets Manager
+
+## Monitoring & Observability
+CloudWatch alarms configured for:
+EC2 CPU utilization
+ALB unhealthy hosts
+ALB 5xx errors
+
+## Deployment
+
+To deploy the infrastructure:
+
+-terraform init
+-terraform validate
+-terraform plan
+-terraform apply
+
+To destroy the infrastructure:
+
+-terraform destroy
 
 ## Project Files
 - `main.tf` - provider and shared configuration
@@ -26,11 +45,29 @@ A STRIDE-based threat model was created to identify potential security risks and
 
 [View Threat Model](threat-model/stride-threat-model.md)
 
+## Security Highlights
+Least privilege IAM roles and policies
+Network isolation using public and private subnets
+TLS termination at the ALB (HTTPS)
+Encrypted RDS storage
+Secrets stored securely using AWS Secrets Manager
+No hardcoded credentials
+
 ## Cost & Security Trade-offs
 
 A breakdown of architectural decisions, balancing cost, performance, and security.
 
 [View Analysis](analysis/cost-security-analysis.md)
+
+## Architecture Overview
+Multi-AZ deployment across 2 Availability Zones
+Application Load Balancer (ALB) for traffic distribution
+Auto Scaling Group for high availability and fault tolerance
+Private EC2 instances (no public IPs)
+Amazon RDS PostgreSQL (Multi-AZ, encrypted)
+AWS WAF for web application protection
+AWS Secrets Manager for secure credential storage
+CloudWatch monitoring and alarms
 
 ## Architecture Diagram
 ![Architecture Diagram](architecture/architecture-diagram.png)
@@ -56,4 +93,13 @@ Step 9 complete: Documented key cost and security trade-offs, analyzing decision
 *****
 Step 10 complete: Successfully deployed and validated the AWS infrastructure in a live environment, confirming ALB connectivity, EC2 health, RDS availability, Secrets Manager integration, and CloudWatch monitoring.
 
+## Key Learnings
+Designed a production-style AWS architecture
+Implemented Infrastructure as Code using Terraform
+Debugged real-world deployment issues (e.g., RDS engine compatibility)
+Applied cloud security best practices
+Built a highly available and fault-tolerant system
 
+## Status
+
+Project completed and successfully deployed in AWS. Infrastructure validated and destroyed to optimize cost.
