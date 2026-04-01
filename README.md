@@ -41,7 +41,7 @@ Step 6 complete: Added CloudWatch monitoring for EC2 and ALB health, along with 
 *****
 Step 7 complete: Designed and added the AWS architecture diagram illustrating the full infrastructure, including WAF, ALB, Auto Scaling EC2 instances, RDS (Multi-AZ), Secrets Manager, and CloudWatch monitoring, highlighting a secure and highly available deployment.
 *****
-Step 8 complete:
+Step 8 complete: Developed a STRIDE-based threat model identifying key security risks and mitigation strategies across the AWS architecture, including IAM, WAF, encryption, and network isolation.
 *****
 Step 9 complete:
 *****
